@@ -1,0 +1,122 @@
+.chatbot-container {
+  width: 300px;
+  height: 400px;
+  margin: 25px 50px 75px 100px;
+  background-color: #c9d2d3;
+  border: 1px solid #410c79;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: end;
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  
+  
+}
+
+#chatbot {
+  background-color: #be5283;
+  border: 1px solid #eef1f5;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#header {
+  background-color: rgb(23, 23, 122);
+  color: #ffffff;
+  padding: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+message-container {
+  background: #4125bb;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#conversation {
+  height: 300px;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-message {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 20px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-width: 100%;
+  padding: 0 15px;
+
+}
+
+.user-message {
+  justify-content: flex-end;
+
+}
+
+.chatbot-text {
+  background-color: white;
+  color: #333333;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#input-form {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #eef1f5;
+}
+
+#input-field {
+  flex: 1;
+  height: 60px;
+  border: 1px solid #eef1f5;
+  border-radius: 4px;
+  padding: 0 5px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+  background: #ffffff;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+}
+
+#input-field:focus {
+  border-color: #333333;
+  outline: none;
+}
+
+#submit-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+#fold-unfold {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-size: larger;
+  box-shadow: #be5283;
+ 
+
+}
+#fold-unfold:hover{
+  background-color: rgb(231, 156, 231);
+  font-size: x-large;
+  
+}

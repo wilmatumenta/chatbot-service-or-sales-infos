@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <!-- babel it allows the navigate to compile your react code to javascript for your navigator to understand it -->
+</head>
+
+<body>
+
+    <div class="chatbot-container" id="containerid">
+        <div id="header">
+            <h1>Chatbot</h1>
+        </div>
+        <div id="chatbot">
+            <div id="conversation">
+                <div class="chatbot-message">
+                    <p class="chatbot-text">Hi! 👋 it's great to see you!</p>
+                </div>
+            </div>
+            <form id="input-form">
+                <message-container>
+                    <input id="input-field" type="text" placeholder="Type your message here">
+                    <button id="submit-button" type="submit">
+                        send
+                    </button>
+                </message-container>
+
+            </form>
+        </div>
+
+    </div>
+    <button id="fold-unfold"  onclick="toggleContent()" >Let's chat!</button>
+
+    <script src="index.js" type="text/babel"></script>
+</body>
+
+</html>
